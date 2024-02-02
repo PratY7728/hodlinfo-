@@ -1,0 +1,102 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th {
+    border: 10px solid #191d28;
+}
+
+ td {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+
+.rowdata{
+    background-color: #2b303d;
+}
+
+tr{
+    border-bottom: 10px solid  #191d28;
+}
+
+
+.header{
+    color:#a59f9f;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3px; /* Set the height of the container */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.centered-button {
+    display: inline-block; /* Adjusted property */
+    padding: 5px;
+    font-size: 7px; /* Adjust font size as needed */
+    color:#7bc17b;
+   background-color: #191d28;
+    border: 2px solid #6acd38 ;
+    border-radius: 5px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.column {
+    /* flex: 1; */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.nested-column-1{
+    font-size: 25px;
+}
+.nested-column-2{
+    font-size: 10px;
+  color: #a59f9f;
+}
+.nested-column-31{
+    font-size: 50px;
+}
+.nested-column-32{
+    font-size: 10px;
+    color: #a59f9f;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Oswald,sans-serif;
+    background-color: #191d28;
+
+}
+.body{
+  
+    /* color: #a59f9f; */
+}
+.centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+

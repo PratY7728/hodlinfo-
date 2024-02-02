@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with 6 Columns</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+            .container-main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            /* height: 100vh; */
+        }
+
+        .column-main {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            border: 1px solid   #191d28;;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style> 
+</head>
+<body>
+   <div class="body">
+    <%= name %>
+    <div class="container-main">
+        <div class="column-main">
+            <img src="source.png" alt="pic1">
+        </div>
+        <div class="column-main">
+             <img src="pic2.png" alt="pic2">
+        </div>
+        <div class="column-main">
+            <img src="pic3.png" alt="pic3">
+        </div>
+    </div>
+
+    <!-- doneeeeeeeeeeee secondddddddddddddddd -->
+    <div class="centered-div">
+        <p>Best Price To Trade</p>
+    </div>
+
+    <!-- second paragraph before table -->
+    <div class="container">
+        <div class="column">
+            <div class="nested-row">
+                <div class="nested-column-1"> 0.1%</div>
+                <div class="nested-column-2">5 Min</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="nested-row">
+                <div class="nested-column-1"> 0.96%</div>
+                <div class="nested-column-2">1 Hour</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="nested-row">
+                <div class="nested-column-31"> 26,56,110</div>
+                <div class="nested-column-32">Average BTC/INR net price including commission</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="nested-row">
+                <div class="nested-column-1"> 2.73%</div>
+                <div class="nested-column-2">1 Day</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="nested-row">
+                <div class="nested-column-1"> 7.13%</div>
+                <div class="nested-column-2">1 Month</div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- table component -->
+    <table>
+        <thead>
+            <tr class="header">
+                <th>#</th>
+                <th>Platform</th>
+                <th>Last Traded Price</th>
+                <th>Buy/Sell Price</th>
+                <th>Difference</th>
+                <th>Savings</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Add your table data rows here -->
+            <tr class="rowdata">
+                <td> 1</td>
+                <td>Data 1, Col 2</td>
+                <td>Data 1, Col 3</td>
+                <td>Data 1, Col 4</td>
+                <td>Data 1, Col 5</td>
+                <td>Data 1, Col 6</td>
+            </tr>
+            <tr class="rowdata">
+                <td> 2</td>
+                <td>Data 1, Col 2</td>
+                <td>Data 1, Col 3</td>
+                <td>Data 1, Col 4</td>
+                <td>Data 1, Col 5</td>
+                <td>Data 1, Col 6</td>
+            </tr>
+            <tr class="rowdata">
+                <td> 2</td>
+                <td>Data 1, Col 2</td>
+                <td>Data 1, Col 3</td>
+                <td>Data 1, Col 4</td>
+                <td>Data 1, Col 5</td>
+                <td>Data 1, Col 6</td>
+            </tr>
+           
+        </tbody>
+    </table>
+    <!-- table component -->
+
+
+    <!-- button component  -->
+    <div class="container">
+        <button class="centered-button">Add HODLINFO To HOME Screen</button>
+    </div>
+
+</div>
+
+</body>
+</html>
